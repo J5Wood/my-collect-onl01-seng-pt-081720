@@ -7,6 +7,7 @@ def my_collect(array)
   while counter < array.length
     yield(array[counter])
     return_list <<
+    binding.pry
     counter +=1
   end
   return_list
