@@ -7,8 +7,6 @@ def my_collect(array)
   while counter < array.length
     return_list <<
     yield(array[counter])
-
-
     counter +=1
   end
   return_list
