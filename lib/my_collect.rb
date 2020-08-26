@@ -8,7 +8,7 @@ def my_collect(array)
     return_list <<
     yield(array[counter])
 
-    binding.pry
+
     counter +=1
   end
   return_list
